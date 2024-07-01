@@ -1,13 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import UseState from './Components/UseState'
-import UseEffect from './Components/UseEffect'
-import UseContext from './Components/UseContext'
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.css";
+import UseState from "./Components/UseState";
+import UseEffect from "./Components/UseEffect";
+import UseContext from "./Components/UseContext";
+import UseRef from "./Components/UseRef";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <center>
@@ -15,8 +16,9 @@ function App() {
       <UseState />
       <UseEffect />
       <UseContext />
+      <UseRef />
     </center>
-  )
+  );
 }
 
-export default App
+export default App;
